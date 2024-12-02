@@ -8,13 +8,13 @@
     Title="EvaluacionP2TLopez">
 
     <TabBar>
-        <Tab Title="Usuario">
+        <Tab Title="Usuario" Icon="telefono.png">
             <ShellContent
                 Title="Tlopez_Usuario"
                 ContentTemplate="{DataTemplate views:TLopezUsuarioView}"
                 Route="ViewsTomasLopez.TLopezUsuarioView"/>
         </Tab>
-        <Tab Title="Apellidos">
+        <Tab Title="Apellidos" Icon="home.png">
             <ShellContent
                 Title="Tlopez_Nombres"
                 ContentTemplate="{DataTemplate views:GridTlopez}"

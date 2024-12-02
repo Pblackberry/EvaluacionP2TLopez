@@ -23,10 +23,12 @@
         <Label Grid.Row="1" Grid.Column="0"
                Text="Lopez"
                HorizontalOptions="Center"
-               VerticalOptions="Center"/>
+               VerticalOptions="Center"
+               x:Name="Tlopez_Style"/>
         <Label Grid.Row="1" Grid.Column="1"
                Text="Andrade"
                HorizontalOptions="Center"
-               VerticalOptions="Center"/>
+               VerticalOptions="Center"
+               x:Name="Tlopez"/>
     </Grid>
 </ContentPage>

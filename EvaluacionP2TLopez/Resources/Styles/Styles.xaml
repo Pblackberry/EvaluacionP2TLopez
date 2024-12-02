@@ -12,6 +12,10 @@
         <Setter Property="IndicatorColor" Value="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray500}}"/>
         <Setter Property="SelectedIndicatorColor" Value="{AppThemeBinding Light={StaticResource Gray950}, Dark={StaticResource Gray100}}"/>
     </Style>
+    <!--<Style TargetType="Label">
+        <Setter Property="FontSize" Value="24"/>
+        <Setter Property="TextColor" Value="Crimson"/>
+    </Style>-->
 
     <Style TargetType="Border">
         <Setter Property="Stroke" Value="{AppThemeBinding Light={StaticResource Gray200}, Dark={StaticResource Gray500}}" />

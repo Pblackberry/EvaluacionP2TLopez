@@ -28,6 +28,7 @@
             x:Name="Tlopez_Label3"
             Text="Último usuario ingresado:"/>
         <Label
+            
             x:Name="Tlopez_Nombre"
             Text="{Binding Nombre}"/>
         <Label
