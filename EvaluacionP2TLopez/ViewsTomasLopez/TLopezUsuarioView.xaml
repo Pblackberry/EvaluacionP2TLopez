@@ -6,33 +6,49 @@
     <VerticalStackLayout>
         <Label
             x:Name="TLopez_Label1"
-            Text="Ingrese el número de teléfono"/>
+            Text="Ingrese el número de teléfono"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"/>
         <Editor
             x:Name="Tlopez_EditorNum"
             Placeholder="Ingrese su numero"
             AutoSize="TextChanges"
-            HeightRequest="50"/>
+            HeightRequest="50"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"/>
         <Label
             x:Name="TLopez_Label2"
-            Text="Ingrese el nombre de quien realiza la carga"/>
+            Text="Ingrese el nombre de quien realiza la carga"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"/>
         <Editor
             x:Name="Tlopez_EditorName"
             Placeholder="Ingrese su nombre"
             AutoSize="TextChanges"
-            HeightRequest="50"/>
+            HeightRequest="50"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"/>
         <Button
             x:Name="Tlopez_GuardarUsuario"
             Text="Guardar datos"
-            Clicked="Tlopez_GuardarUsuario_Clicked"/>
+            Clicked="Tlopez_GuardarUsuario_Clicked"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"/>
         <Label
             x:Name="Tlopez_Label3"
-            Text="Último usuario ingresado:"/>
+            Text="Último usuario ingresado:"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"/>
         <Label
             
             x:Name="Tlopez_Nombre"
-            Text="{Binding Nombre}"/>
+            Text="{Binding Nombre}"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"/>
         <Label
             x:Name="Tlopez_Numero"
-            Text="{Binding Numero}"/>
+            Text="{Binding Numero}"
+            HorizontalOptions="Center"
+            VerticalOptions="Center"/>
     </VerticalStackLayout>
 </ContentPage>

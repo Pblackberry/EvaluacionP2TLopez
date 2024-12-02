@@ -24,11 +24,13 @@
                Text="Lopez"
                HorizontalOptions="Center"
                VerticalOptions="Center"
-               x:Name="Tlopez_Style"/>
+               x:Name="Tlopez_Style"
+               Style="{StaticResource Apellidos}"/>
         <Label Grid.Row="1" Grid.Column="1"
                Text="Andrade"
                HorizontalOptions="Center"
                VerticalOptions="Center"
-               x:Name="Tlopez"/>
+               x:Name="Tlopez"
+               Style="{StaticResource Apellidos}"/>
     </Grid>
 </ContentPage>
