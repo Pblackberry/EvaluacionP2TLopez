@@ -24,6 +24,14 @@
             x:Name="Tlopez_GuardarUsuario"
             Text="Guardar datos"
             Clicked="Tlopez_GuardarUsuario_Clicked"/>
-        
+        <Label
+            x:Name="Tlopez_Label3"
+            Text="Último usuario ingresado:"/>
+        <Label
+            x:Name="Tlopez_Nombre"
+            Text="{Binding Nombre}"/>
+        <Label
+            x:Name="Tlopez_Numero"
+            Text="{Binding Numero}"/>
     </VerticalStackLayout>
 </ContentPage>

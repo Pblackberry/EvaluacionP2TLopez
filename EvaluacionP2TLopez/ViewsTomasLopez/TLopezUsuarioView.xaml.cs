@@ -31,6 +31,7 @@ public partial class TLopezUsuarioView : ContentPage
         {
             await DisplayAlert("Alerta", "Error al guardar", "ok");
         }
+        Navigation.PushAsync(new TLopezUsuarioView());
 
 
     }
