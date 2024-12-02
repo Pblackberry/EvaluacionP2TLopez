@@ -4,9 +4,26 @@
              x:Class="EvaluacionP2TLopez.ViewsTomasLopez.TLopezUsuarioView"
              Title="TLopezUsuarioView">
     <VerticalStackLayout>
-        <Label 
-            Text="Welcome to .NET MAUI!"
-            VerticalOptions="Center" 
-            HorizontalOptions="Center" />
+        <Label
+            x:Name="TLopez_Label1"
+            Text="Ingrese el número de teléfono"/>
+        <Editor
+            x:Name="Tlopez_EditorNum"
+            Placeholder="Ingrese su numero"
+            AutoSize="TextChanges"
+            HeightRequest="50"/>
+        <Label
+            x:Name="TLopez_Label2"
+            Text="Ingrese el nombre de quien realiza la carga"/>
+        <Editor
+            x:Name="Tlopez_EditorName"
+            Placeholder="Ingrese su nombre"
+            AutoSize="TextChanges"
+            HeightRequest="50"/>
+        <Button
+            x:Name="Tlopez_GuardarUsuario"
+            Text="Guardar datos"
+            Clicked="Tlopez_GuardarUsuario_Clicked"/>
+        
     </VerticalStackLayout>
 </ContentPage>

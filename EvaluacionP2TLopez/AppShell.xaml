@@ -8,10 +8,19 @@
     Title="EvaluacionP2TLopez">
 
     <TabBar>
-        <ShellContent
-            Title="Tlopez_Usuario"
-            ContentTemplate="{DataTemplate views:TLopezUsuarioView}"
-            Route="ViewsTomasLopez.TLopezUsuarioView"/>
+        <Tab Title="Usuario">
+            <ShellContent
+                Title="Tlopez_Usuario"
+                ContentTemplate="{DataTemplate views:TLopezUsuarioView}"
+                Route="ViewsTomasLopez.TLopezUsuarioView"/>
+        </Tab>
+        <Tab Title="Apellidos">
+            <ShellContent
+                Title="Tlopez_Nombres"
+                ContentTemplate="{DataTemplate views:GridTlopez}"
+                Route="ViewsTomasLopez.GridTlopez"/>
+        </Tab>
+
     </TabBar>
 
 </Shell>

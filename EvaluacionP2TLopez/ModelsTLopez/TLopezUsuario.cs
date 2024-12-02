@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace EvaluacionP2TLopez.ModelsTLopez
 {
-    internal class TLopezUsuario
+    public class TLopezUsuario
     {
         public string Nombre { get; set; }
         public string Numero { get; set; }
